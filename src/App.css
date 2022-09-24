@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  border: 5px solid black; 
+  border-collapse:collapse;
+  background-color: aqua;
 }
 
 .App-logo {
@@ -27,7 +30,15 @@
 .App-link {
   color: #61dafb;
 }
+.ship{
+  text-align: center;
+  color: brown;
+}
+input{
+  display: block;
+  margin: 0 auto 10px auto;
 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +46,18 @@
   to {
     transform: rotate(360deg);
   }
+  
+}
+table{
+  width:100%;
+}
+th,td{
+  border: 5px solid blueviolet;
+  padding: 8px;
+}
+th{
+  padding-top: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+  
 }
